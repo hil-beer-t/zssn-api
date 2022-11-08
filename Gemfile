@@ -13,6 +13,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "bootsnap", require: false
 
+gem 'active_model_serializers', '~> 0.10.0'
+
 group :development, :test do
   gem 'rspec-rails', '~> 6.0.0'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
